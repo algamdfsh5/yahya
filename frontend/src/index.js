@@ -6,7 +6,7 @@ import { db } from "./data/firebase";
 import {
   collection,
   getDocs,
-} from "https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.js";
+} from "firebase/firestore";
 import reportWebVitals from './reportWebVitals';
 export const root = ReactDOM.createRoot(document.getElementById('web'));
        root.render(
