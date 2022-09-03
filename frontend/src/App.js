@@ -1,5 +1,5 @@
 import './App.css';
-import './lightspeed_imgs';
+import ProgressiveImg from "./components/ProgressiveImg";
 import search from "./images/icons/search.svg";
 import menu  from "./images/icons/menu.svg";
 import logo  from "./images/logo.svg";
@@ -28,8 +28,12 @@ function App (props){
   <h3 id="extra-text"> { props.extraText } </h3>
     </div> 
   <div className="image_container">
-    <img src = { props.images == null ? example : props.images }  id="logo_over_triangle"/>
-
+    <ProgressiveImg
+      src={ props.images == null ? example : props.images }
+      placeholderSrc = {menu_tab},
+      id="logo_over_triangle"
+    />
+        {/*     <img src = { props.images == null ? example : props.images }  id="logo_over_triangle"/>*/}
   <img src = { triangle } id="triangle"/>
   </div>
   
