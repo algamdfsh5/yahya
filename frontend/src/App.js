@@ -1,5 +1,5 @@
 import './App.css';
-import ProgressiveImg from "./components/ProgressiveImg";
+import ProgressiveImg from "./lightspeed_imgs";
 import search from "./images/icons/search.svg";
 import menu  from "./images/icons/menu.svg";
 import logo  from "./images/logo.svg";
