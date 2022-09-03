@@ -30,7 +30,7 @@ function App (props){
   <div className="image_container">
     <ProgressiveImg
       src={ props.images == null ? example : props.images }
-      placeholderSrc = {menu_tab},
+      placeholderSrc = {menu_tab}
       id="logo_over_triangle"
     />
         {/*     <img src = { props.images == null ? example : props.images }  id="logo_over_triangle"/>*/}
