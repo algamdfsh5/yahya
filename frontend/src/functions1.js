@@ -1,7 +1,7 @@
 import { db } from "./data/firebase";
 import {root}  from "./index";
 import React from 'react';
-import App from './App';
+import App2 from './App';
 import { getStorage, ref , getDownloadURL} from "firebase/storage";// Get a non-default Storage bucket
 import {
   collection,
