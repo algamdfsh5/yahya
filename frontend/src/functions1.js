@@ -2,15 +2,14 @@ import { db } from "./data/firebase";
 import {root}  from "./index";
 import React from 'react';
 import App from './App';
-import { getApp } from "firebase/app";
-     import { getStorage, ref , getDownloadURL} from "firebase/storage";
-
-// Get a non-default Storage bucket
-
+import { getStorage, ref , getDownloadURL} from "firebase/storage";// Get a non-default Storage bucket
 import {
   collection,
   getDocs,
 } from "firebase/firestore";
+
+
+
 function menu_tab()
 { 
 // Create a reference with an initial file path and name
